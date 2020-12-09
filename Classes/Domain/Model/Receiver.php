@@ -72,7 +72,7 @@ class Receiver
     public function __construct($email, $attributes = null)
     {
         $this->email = $email;
-        $this->attributes = $attributes;
+        $this->globalAttributes = $attributes;
         $this->registered = time();
     }
 
